@@ -25,15 +25,15 @@ export default defineConfig(async ({ command, mode }) => {
     const { nitro } = await import("nitro/vite");
     plugins.push(
       nitro({
-        preset: "cloudflare-module",
+        preset: "cloudflare-pages",
         output: {
           dir: "dist",
-          serverDir: "dist/server",
+          serverDir: "_worker.js",
           publicDir: "dist/client",
         },
         cloudflare: {
           nodeCompat: true,
-          deployConfig: false,
+          deployConfig: true,
         },
       }),
     );
