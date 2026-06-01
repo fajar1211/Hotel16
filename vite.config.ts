@@ -32,7 +32,6 @@ export default defineConfig(async ({ command, mode }) => {
         },
         cloudflare: {
           nodeCompat: true,
-          deployConfig: true,
         },
       }),
     );
