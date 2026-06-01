@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Kelapa Bay Resort — Pesona Bahari Modern di Singkawang" },
+      { name: "description", content: "Nikmati pengalaman menginap mewah bergaya Cape Cod di Kelapa Bay Resort Singkawang. Kamar suite, kolam renang, dan pemandangan pantai yang memukau dalam nuansa" },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Kelapa Bay Resort — Pesona Bahari Modern di Singkawang" },
+      { property: "og:description", content: "Nikmati pengalaman menginap mewah bergaya Cape Cod di Kelapa Bay Resort Singkawang. Kamar suite, kolam renang, dan pemandangan pantai yang memukau dalam nuansa" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Kelapa Bay Resort — Pesona Bahari Modern di Singkawang" },
+      { name: "twitter:description", content: "Nikmati pengalaman menginap mewah bergaya Cape Cod di Kelapa Bay Resort Singkawang. Kamar suite, kolam renang, dan pemandangan pantai yang memukau dalam nuansa" },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/f4377f65-3a6f-4d66-82b5-ac0ebf9f3c72/id-preview-0c16c539--03f40092-c51d-4a02-8983-e0f0c1a5e52f.lovable.app-1780256611038.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/f4377f65-3a6f-4d66-82b5-ac0ebf9f3c72/id-preview-0c16c539--03f40092-c51d-4a02-8983-e0f0c1a5e52f.lovable.app-1780256611038.png" },
     ],
     links: [
       {
