@@ -27,8 +27,9 @@ export default defineConfig(async ({ command, mode }) => {
       nitro({
         preset: "cloudflare-pages",
         output: {
-          dir: "dist/client",
+          dir: "dist",
           serverDir: "{{ output.dir }}/_worker.js",
+          publicDir: "dist",
         },
         cloudflare: {
           nodeCompat: true,

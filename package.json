@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite dev",
-    "build": "vite build && echo 'STATIC TEST' > dist/client/testing123.html",
+    "build": "vite build && cp -r dist/client/assets dist/",
     "build:dev": "vite build --mode development",
     "preview": "vite preview",
     "lint": "eslint .",
