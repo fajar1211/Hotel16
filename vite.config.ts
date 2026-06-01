@@ -28,7 +28,7 @@ export default defineConfig(async ({ command, mode }) => {
         preset: "cloudflare-pages",
         output: {
           dir: "dist/client",
-          serverDir: "_worker.js",
+          serverDir: "{{ output.dir }}/_worker.js",
         },
         cloudflare: {
           nodeCompat: true,
